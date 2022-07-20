@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="button">Car Race Registration Form</div>
+        <div class="details">
+            <p><b>Location:</b> 1379 Horseshoe Lane, Philadelphia, PA, 19108</p>
+            <p><b>Race Dates:</b> August 1, 2022 / August 4, 2022 / August 7, 2022</p>
+            <p><b>Time:</b> 8:00AM - 5:00PM</p>
+            <br><br>
+            <p>Please fill-up the form below to register to the event:</p>
+        </div>
+        <div class="button">Driver Information</div>
+        <div class="driverdetails">
+            <div class="formfill">
+                <span>Driver's Name:</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="text" placeholder="First Name">
+                &nbsp;&nbsp;&nbsp; <input type="text" placeholder="Last Name">
+            </div>
+            <div class="formfill">
+                <span>Date of Birth:</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="date"
+                    placeholder="Date Of Birth" width="200px"> &nbsp; Select Date
+            </div>
+            <div class="formfill">
+                <span>Phone Number:</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="number"
+                    placeholder="+911234567890">
+            </div>
+            <div class="formfill">
+                <span>Email:</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="email" placeholder="example@gmail.com">
+            </div>
+            <div class="formfil">
+                <span>Address:</span> &nbsp;&nbsp; <input type="text" placeholder="Address line-1">
+                <input type="text" placeholder="Address line-2"> <br>
+                <input type="text" placeholder="City"> <input type="text" placeholder="State"> <input type="number"
+                    placeholder="Pincode">
+            </div>
+            <div class="formfill">
+                <span>Emergency Contact Person:</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="text" placeholder="First Name">
+                &nbsp;&nbsp;&nbsp; <input type="text" placeholder="Last Name">
+            </div>
+            <div class="formfill">
+                <span>Emergency Person Phone Number:</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="number" placeholder="+911234567890">
+            </div>
+        </div>
+        <div class="button">Car Details</div>
+        <div class="cardetails">
+            <div class="formfill">
+                <span>Make:</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="text">
+            </div>
+            <div class="formfill">
+                <span>Model:</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="text">
+            </div>
+            <div class="formfill">
+                <span>Year:</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="number">
+            </div>
+            <div class="formfill">
+                <span>Car Color:</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="color">
+            </div>
+            <div class="formfill">
+                <span>Modification:</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <textarea name="modifications" id="modifications" cols="35" rows="8" placeholder="Give Here Your Modifications Details"></textarea>
+            </div>
+            <div class="formfill">
+                <span>License Plate Number:</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="number">
+            </div>
+        </div>
+        <div class="button">Registration Payment</div>
+        <div class="formfill">
+            <span>Registration Fee For:</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="checkbox" id="car1" name="car1"><label for="car1"> 1 Day Participation$200.00</label>
+        </div>
+        <div class="formfill">
+            <span>Registration Fee For:</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="checkbox" id="car1" name="car1"><label for="car1"> 2 Days Participation$350.00</label>
+        </div>
+        <div class="formfill">
+            <span>Registration Fee For:</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="checkbox" id="car1" name="car1"><label for="car1">  Days Participation$500.00</label>
+        </div>
+        <div class="formfill">
+            <span>Total Registration Fee:</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>$0.00</span>
+        </div>
+        <div class="button">Release & Agreement</div>
+        <div class="formfill">
+            <span>Driver's Signature:</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<div class="sig-box"></div>
+        </div>
+        <div class="formfill">
+            <span>Date Signed:</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="date"
+                placeholder="Date Of Birth" width="200px"> &nbsp; Select Date
+        </div>
+        <div class="registerdiv">
+            <button class="register-btn">Register</button> <span>OR</span> <button class="register-btn">Sign In</button>
+        </div>
+    </div>
+</body>
+
+</html>
